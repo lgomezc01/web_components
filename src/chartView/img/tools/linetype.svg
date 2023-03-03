@@ -1,0 +1,20 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="1" x2="1" y1="0" x1="0" id="svg_8" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0"/>
+   <stop stop-color="#b3d1dd" offset="1" stop-opacity="0.99219"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect width="64" height="64" id="svg_2" fill="url(#svg_8)" stroke-width="0"/>
+  <g clip-path="url(#highcharts-1)" id="svg_1">
+   <rect x="0.69754" y="31.86923" width="8.78447" height="31.45913" stroke="#FFFFFF" fill="rgba(175,198,224,0.75)" id="svg_3"/>
+   <rect x="18.72882" y="0.6813" width="8.78447" height="62.64706" stroke="#FFFFFF" fill="rgba(175,198,224,0.75)" id="svg_4"/>
+   <rect x="36.76009" y="44.6156" width="8.78447" height="18.71276" stroke="#FFFFFF" fill="rgba(175,198,224,0.75)" id="svg_5"/>
+   <rect x="54.5602" y="13.15647" width="8.78447" height="50.17189" stroke="#FFFFFF" fill="rgba(175,198,224,0.75)" id="svg_6"/>
+  </g>
+  <path id="svg_1" stroke="#003f7f" stroke-linejoin="round" d="m0.37774,45.5743l0.00414,0l21.02194,-45.38525l21.02193,63.53934l21.02193,-45.38524l0.09508,0" fill="none"/>
+  <path d="m1.42417,59.0595c0,0 9.57316,-19.1526 18.08336,-19.1526c8.5103,0 14.7143,16.296 23.2246,16.296c8.5102,0 21.4517,-1.11766 21.2756,-28.40636l0,36.20076l-63.8269,0" id="svg_1" fill="rgba(136,170,208,1)"/>
+ </g>
+</svg>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ChartView component</title>
+  <link rel="stylesheet" href="./metric.css">
+  <script type="module" src="./metric.js"></script>
+
+<!--
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>  -->
+</head>
+
+<body>
+  <div style="height:50px;"></div>
+  <div id="metric" class="metric-content">
+    <chart-view>
+      <slider-comp slot="time-slider" class="timeSlider label-right grouper"></slider-comp>
+      <chart-comp slot="chart" width="450px" height="350px"></chart-comp>
+      <slider-comp slot="grouperSlider" class="grouperSlider label-left grouper"></slider-comp>
+    </chart-view>
+    <!--<chart-view>
+      <chart-comp slot="chart"></chart-comp>
+    </chart-view>-->
+  </div>
+</body>
+</html>

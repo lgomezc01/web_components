@@ -1,0 +1,53 @@
+.ui-widget-header {
+	/*verde*/
+	/*background: #DCEFCF;*/
+	/*azul*/
+	background: #CFDCEF;
+}
+
+.grouper {
+	display:flex;
+	align-self: auto;
+	flex: 1 0 auto;
+	position:relative;
+	box-sizing: border-box;
+	height:100%; 
+}
+
+.grouper .slider {
+	align-self: auto;
+	flex: 1 0 auto;
+	position:relative;
+/* 	height:100%; */
+}
+
+/* sobreescribimos jquery-ui.min.css */
+.ui-slider-vertical { 
+	width: 0.6em; 
+	height: 100%;
+}
+
+div.label {
+    width: min-content;
+	/*height:1.25em;*/
+	/* 	margin-left:1.5625em; */
+	text-align:left;
+	position:relative;
+    white-space: nowrap;
+}
+
+div.label-right select.label, div.label-right div.label {
+	margin-left:1.3em;
+}
+
+
+.ui-slider .ui-slider-handle {
+	width: 1em;
+	height: 1em;
+}
+
+/* Esto esta para que el label aparezca a la izquierda. */
+div.label-left select.label, div.label-left div.label {
+	transform: translateX(calc(-100% - 0.625em));
+}
+

@@ -1,0 +1,199 @@
+slider-comp {
+	display: flex;
+}
+chart-view {
+	display: contents;
+}
+
+/*Default value para width y height auto; */
+div.metric-content {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: stretch;
+	flex: 1 1 auto;
+	align-self: stretch;
+	box-sizing: border-box;
+	position: fixed;
+	/*background-color: blue;*/
+}
+
+div.button {
+	order: 0;
+	flex: 0 1 auto;
+	align-self: auto;
+	background-color: green;
+}
+
+div.metric {
+	order: 1;
+	flex: 0 1 auto;
+	align-self: auto;
+}
+
+div.chartView {
+	order: 2;
+	flex: 1 1 auto;
+	align-self: auto;
+/* 	min-width: auto; */
+/* 	min-height: auto; */
+	background-color: red;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: stretch;
+	z-index: 10;
+}
+
+fieldset.field-set {
+	margin-bottom: 0.77em;
+	border: 0 none;
+}
+
+fieldset.field-set legend {
+	color: #870025;
+	font-weight: bold;
+	margin-bottom: 0.77em;
+}
+
+fieldset.field-set dl {
+	border-left: 0.38em solid #C0C0C0;
+}
+
+fieldset.field-set dt {
+	margin-left: 0.77em;
+}
+
+fieldset.field-set dl.field-set-layout dt {
+	float: left;
+	width: 16em;
+}
+
+fieldset.field-set dl.field-set-layout dd {
+	margin-bottom: 0.3125em;
+}
+
+/*****************************************************************************/
+/* CONTROLS            													     */
+/*****************************************************************************/
+
+div.metric-controls {
+	display: flex;
+	flex-flow: row;
+	align-items: stretch;
+	order: 0;
+	flex: 0 1 auto;
+	z-index: 7;
+	align-self: auto;
+	min-height:1.5em;
+	height:1.5em;
+	justify-content: space-between;
+	margin-bottom: 0.625em;
+}
+
+
+div.metric-navegations {
+	order: 1;
+	flex: 0 1 auto;
+}
+
+div.metric-navegations ul {
+	display: flex;
+	flex-flow: row;
+	list-style: none;
+	margin: 0;
+	/* 	opacity: 0.6; */
+}
+
+div.metric-navegations li {
+	margin: 0;
+	list-style: none;
+	padding: 0 0.0625em;
+}
+
+div.metric-navegations a {
+	outline: none;
+}
+
+div.metric-navegations a img {
+	height: 1.5em;
+	width: 1.5em;
+}
+
+div.metric-navegations a.disabled {
+	cursor: default;
+	opacity: 0.3;
+}
+
+div.metric-navegations a.disabled span {
+	cursor: default;
+}
+
+div.metric-navegations a span { /* hide the text for these graphic buttons */
+	display: none;
+	cursor: pointer;
+}
+
+div.metric-navegations .move-control a:hover {
+	cursor: all-scroll;
+}
+
+/*****************************************************************************/
+/* FIN CONTROLS            													 */
+/*****************************************************************************/
+
+/*****************************************************************************/
+/* METRIC ACTIONS														     */
+/*****************************************************************************/
+
+div.metric-options {
+	order: 0;
+	flex: 0 1 auto;
+}
+
+div.metric-options ul {
+    display: flex;
+    flex-flow: row;
+    list-style: outside none none;
+    margin: 0;
+}
+
+div.metric-options li {
+	margin: 0;
+	list-style: none;
+	padding: 0 0.0625em;
+}
+
+div.metric-options ul a{
+	height:1.5em;
+	width:1.5em;
+}
+
+div.metric-options ul a img{
+	border:none;
+}
+
+/*****************************************************************************/
+/* FIN METRIC ACTIONS														 */
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/* RESPONSIVE       													 */
+/*****************************************************************************/
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+	{
+		font-size: 0.875em;
+	}	
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+	{
+		font-size: 0.75em;
+	}	
+}

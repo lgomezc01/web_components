@@ -1,0 +1,19 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient spreadMethod="pad" id="svg_8" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop stop-opacity="0.99219" offset="1" stop-color="#b3d1dd"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="0" fill="url(#svg_8)" id="svg_2" height="64" width="64"/>
+  <circle stroke-width="0" id="svg_10" r="2.79287" cy="24.11515" cx="22.87316" stroke="#000000" fill="#6BA2C2"/>
+  <circle stroke-width="0" id="svg_13" r="2.79287" cy="36.49311" cx="49.12296" stroke="#000000" fill="#6BA2C2"/>
+  <circle stroke-width="0" id="svg_14" r="2.79287" cy="49.78169" cx="55.68479" stroke="#000000" fill="#6BA2C2"/>
+  <circle stroke-width="0" id="svg_15" r="2.79286" cy="35.87316" cx="14.52089" stroke="#000000" fill="#6BA2C2"/>
+  <circle stroke-width="0" id="svg_16" r="2.79287" cy="48.87906" cx="9.18328" stroke="#000000" fill="#6BA2C2"/>
+  <circle stroke-width="0" id="svg_17" r="2.79287" cy="13.69321" cx="31.93914" stroke="#000000" fill="#6BA2C2"/>
+  <circle id="svg_1" stroke-width="0" r="2.79287" cy="24.28867" cx="41.96035" stroke="#000000" fill="#6BA2C2"/>
+ </g>
+</svg>

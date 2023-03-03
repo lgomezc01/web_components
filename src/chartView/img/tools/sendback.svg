@@ -1,0 +1,38 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="0.00001" y1="1" x2="0.50001" x1="0.50001" id="def0">
+   <stop stop-color="#009900" offset="0"/>
+   <stop stop-color="#009900" offset="0.00562"/>
+   <stop stop-color="#66CC33" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0" y1="1" x2="0.5" x1="0.5" id="def1">
+   <stop stop-color="#B8DAFF" offset="0"/>
+   <stop stop-color="#B8DAFF" offset="0.00562"/>
+   <stop stop-color="#F6F9FF" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0" y1="1" x2="0.5" x1="0.5" id="def2">
+   <stop stop-color="#B8DAFF" offset="0"/>
+   <stop stop-color="#B8DAFF" offset="0.00562"/>
+   <stop stop-color="#F6F9FF" offset="1"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" id="svg_8" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop stop-opacity="0.99219" offset="1" stop-color="#b3d1dd"/>
+  </linearGradient>  
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_10">
+  <rect stroke-width="0" fill="url(#svg_8)" id="svg_2" height="64" width="64"/>
+   <path id="svg_11" fill="#009900" d="m44.99545,45.18069l-26.7353,0l0,-26.34245l26.7353,0l0,26.34245z"/>
+   <path id="svg_12" fill="#FFFFFF" d="m18.81712,19.38703l25.62107,0l0,25.245l-25.62107,0l0,-25.245z"/>
+   <path id="svg_13" fill="url(#def0)" d="m19.9311,20.48464l23.3934,0l0,23.04965l-23.3934,0l0,-23.04965z"/>
+   <path id="svg_14" fill="#77A1C9" d="m27.17186,63.29113l-26.73518,0l0,-26.34246l26.73518,0l0,26.34246z"/>
+   <path id="svg_15" fill="#FFFFFF" d="m0.99366,37.49746l25.62122,0l0,25.245l-25.62122,0l0,-25.245z"/>
+   <path id="svg_16" fill="url(#def1)" d="m2.10763,38.59508l23.39328,0l0,23.04964l-23.39328,0l0,-23.04964z"/>
+   <path id="svg_17" fill="#77A1C9" d="m63.37589,27.07025l-26.7353,0l0,-26.34245l26.7353,0l0,26.34245z"/>
+   <path id="svg_18" fill="#FFFFFF" d="m37.19755,1.2766l25.62107,0l0,25.24486l-25.62107,0l0,-25.24486z"/>
+   <path id="svg_19" fill="url(#def2)" d="m38.31153,2.3742l23.3934,0l0,23.04965l-23.3934,0l0,-23.04965z"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient spreadMethod="pad" id="svg_8" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop stop-opacity="0.99219" offset="1" stop-color="#b3d1dd"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_10">
+   <rect stroke-width="0" fill="url(#svg_8)" id="svg_2" height="64" width="64"/>
+   <path fill="rgba(15,72,127,1)" d="m33.05773,2.32928a29.31611,29.72052 0 0 1 9.08296,57.98055l-9.07691,-28.26003l0,0l-0.00605,-29.72052z" stroke="#FFFFFF" stroke-linejoin="round" id="svg_3"/>
+   <path fill="rgba(52,109,164,1)" d="m42.11288,60.31902a29.31611,29.72052 0 0 1 -37.77154,-22.31837l28.72244,-5.95084l0,0l9.0491,28.26921z" stroke="#FFFFFF" stroke-linejoin="round" id="svg_4"/>
+   <path fill="rgba(88,145,200,1)" d="m2.32065,37.5631a29.3161,29.7205 0 0 1 4.5726,-22.7623l24.15565,16.8405l0,0l-28.72826,5.9218l0.00001,0z" stroke="#FFFFFF" stroke-linejoin="round" id="svg_5"/>
+   <path fill="rgba(124,181,236,1)" d="m8.92463,15.1849a29.3161,29.7205 0 0 1 11.80117,-10.0954l12.338,26.9603l0,0l-24.13917,-16.8649l0,0z" stroke="#FFFFFF" stroke-linejoin="round" id="svg_6"/>
+   <path fill="rgba(160,217,255,1)" d="m20.75242,5.07701a29.31611,29.72052 0 0 1 10.98115,-2.71712l1.3302,29.68991l0,0l-12.31135,-26.97279z" stroke="#FFFFFF" stroke-linejoin="round" id="svg_7"/>
+   <path fill="rgba(196,253,255,1)" d="m31.76298,2.35857a29.31611,29.72052 0 0 1 1.26009,-0.02924l0.0407,29.72049l0,0l-1.30079,-29.69124z" stroke="#FFFFFF" stroke-linejoin="round" id="svg_9"/>
+  </g>
+ </g>
+</svg>

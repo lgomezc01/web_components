@@ -1,0 +1,18 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient spreadMethod="pad" id="svg_8" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop stop-opacity="0.99219" offset="1" stop-color="#b3d1dd"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="0" fill="url(#svg_8)" id="svg_2" height="64" width="64" y="0" x="0"/>
+  <g id="svg_1" clip-path="url(#highcharts-1)" class="highcharts-series highcharts-tracker">
+   <rect id="svg_3" fill="rgba(175,198,224,1)" stroke="#FFFFFF" height="31.45913" width="8.78447" y="31.18793" x="0"/>
+   <rect id="svg_4" fill="rgba(175,198,224,1)" stroke="#FFFFFF" height="62.64706" width="8.78447" y="0" x="18.03128"/>
+   <rect id="svg_5" fill="rgba(175,198,224,1)" stroke="#FFFFFF" height="18.71276" width="8.78447" y="43.9343" x="36.06255"/>
+   <rect id="svg_6" fill="rgba(175,198,224,1)" stroke="#FFFFFF" height="50.17189" width="8.78447" y="12.47517" x="53.86266"/>
+  </g>
+ </g>
+</svg>

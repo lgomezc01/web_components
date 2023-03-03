@@ -1,0 +1,159 @@
+
+/**
+ * default development theme for jQRangeSlider
+ * Using fam fam icon set from Mark James, http://www.famfamfam.com/lab/icons/silk/ (Creative Commons Attribution 2.5 License)
+ */
+
+.dateSlider div.prev {
+	float: left;
+	width: 1em;
+	margin: 0.125em 0;
+}
+
+.dateSlider div.next {
+	float: left;
+	width: 1em;
+	margin: 0.125em 0;
+}
+
+.prev .next {
+	float: left;
+	width: 1em;
+	margin: 0.125em 0;
+}
+
+.ui-rangeSlider {
+	height: 1.375em;
+}
+
+.ui-rangeSlider .ui-rangeSlider-innerBar {
+	margin: 0.3em 0;
+	height: 0.45em;
+	/*margin: 0.1875em 0;*/
+	/*height: 0.625em;*/
+	/**background: #E2EAF5; **/
+	
+	/*azul*/
+	background: #EEF2F9;
+	/*verde*/
+	/*background: #f2f9ee;*/
+	
+	
+}
+
+.ui-rangeSlider .ui-rangeSlider-handle {
+	width: 0.375em;
+	height: 1.0625em;
+	/*azul*/
+	background: #7499D1;
+	/*verde*/
+	/*background: #99D174;*/
+	cursor: col-resize;
+}
+
+.ui-rangeSlider .ui-rangeSlider-bar {
+	/**background: #BCCEE9;**/
+	/*azul*/
+	background: #CFDCEF;
+	/*verde*/
+	/*background: #DCEFCF;*/
+	/*margin: 0.1875em 0;*/
+	/*height: 0.625em;*/
+	margin: 0.3em 0;
+	height: 0.45em;
+	cursor: move;
+	cursor: grab;
+	cursor: -moz-grab;
+}
+
+.ui-rangeSlider .ui-rangeSlider-bar.ui-draggable-dragging {
+	cursor: -moz-grabbing;
+	cursor: grabbing;
+}
+
+.ui-rangeSlider-arrow {
+	height: 1em;
+	/*margin:0.125em 0;*/
+	width: 1em;
+	background-repeat: no-repeat;
+}
+
+.ui-rangeSlider-arrow.ui-rangeSlider-leftArrow {
+	background-image:
+		url("icons-classic/resultset_previous.png");
+	background-position: center left;
+}
+
+.ui-rangeSlider-arrow.ui-rangeSlider-rightArrow {
+	background-image:
+		url("icons-classic/resultset_next.png");
+	background-position: center right;
+}
+
+.ui-rangeSlider-arrow-inner {
+	display: none;
+}
+
+.ui-rangeSlider-container {
+	height: 1.375em;
+}
+
+.ui-rangeSlider-withArrows .ui-rangeSlider-container {
+	margin: 0 0.95em;
+}
+
+.ui-rangeSlider-noArrow .ui-rangeSlider-container {
+	margin: 0;
+}
+
+.ui-rangeSlider-label {
+ 	font: 0.8125em/1.231 arial, helvetica, clean, sans-serif;
+	 color: #fff;
+	/*margin: 0 0.125em 0.125em;*/
+	margin: 0 0.125em 0.5em;
+	/*verde*/
+	/*background-color: #99D174;*/
+	/*azul con imange de fondo*/
+	background-image: url("icons-classic/label.png");
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	white-space: nowrap;
+	bottom: 1.25em;
+	padding: 0.1875em 0.375em 0.4375em;
+	cursor: col-resize;
+	border-radius: 0.625em;
+}
+
+.ui-rangeSlider-label-inner {
+	display: none;
+}
+
+/*
+ * Edit slider
+ */
+input.ui-editRangeSlider-inputValue {
+	width: 3em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*****************************************************************************/
+/* RESPONSIVE       													 */
+/*****************************************************************************/
+
+/* Nested within another conditional at-rule */
+@supports (display: flex) {
+	@media screen and (height <= 400px) {
+	  .ui-rangeSlider .ui-rangeSlider-bar {
+		  margin: 0.3em 0;
+		  height: 0.45em;
+	  }
+	}
+
+	@media screen and (height > 400px) {
+		.ui-rangeSlider .ui-rangeSlider-bar {
+			margin: 0.1875em 0;
+			height: 0.625em;
+		}
+	}
+}

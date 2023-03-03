@@ -1,0 +1,38 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="0" y1="1" x2="0.5" x1="0.5" id="def0">
+   <stop stop-color="#B8DAFF" offset="0"/>
+   <stop stop-color="#B8DAFF" offset="0.00562"/>
+   <stop stop-color="#F6F9FF" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0" y1="1" x2="0.5" x1="0.5" id="def1">
+   <stop stop-color="#B8DAFF" offset="0"/>
+   <stop stop-color="#B8DAFF" offset="0.00562"/>
+   <stop stop-color="#F6F9FF" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0.00001" y1="1" x2="0.50001" x1="0.50001" id="def2">
+   <stop stop-color="#009900" offset="0"/>
+   <stop stop-color="#009900" offset="0.00562"/>
+   <stop stop-color="#66CC33" offset="1"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" id="svg_8" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop stop-opacity="0.99219" offset="1" stop-color="#b3d1dd"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="0" fill="url(#svg_8)" id="svg_2" height="64" width="64"/>
+  <g id="svg_1">
+   <path id="svg_2" fill="#77A1C9" d="m27.36259,63.5283l-26.41919,0l0,-26.45084l26.41919,0l0,26.45084z"/>
+   <path id="svg_3" fill="#FFFFFF" d="m1.49379,37.6285l25.3184,0l0,25.34888l-25.3184,0l0,-25.34888z"/>
+   <path id="svg_4" fill="url(#def0)" d="m2.5946,38.73063l23.11679,0l0,23.14449l-23.11679,0l0,-23.14449z"/>
+   <path id="svg_5" fill="#77A1C9" d="m63.13871,27.15839l-26.41932,0l0,-26.45084l26.41932,0l0,26.45084z"/>
+   <path id="svg_6" fill="#FFFFFF" d="m37.26978,1.25861l25.31824,0l0,25.34874l-25.31824,0l0,-25.34874z"/>
+   <path id="svg_7" fill="url(#def1)" d="m38.37059,2.36072l23.11691,0l0,23.14449l-23.11691,0l0,-23.14449z"/>
+   <path id="svg_8" fill="#009900" d="m44.97551,45.34334l-26.41931,0l0,-26.45084l26.41931,0l0,26.45084z"/>
+   <path id="svg_9" fill="#FFFFFF" d="m19.10659,19.44354l25.31824,0l0,25.34887l-25.31824,0l0,-25.34887z"/>
+   <path id="svg_10" fill="url(#def2)" d="m20.2074,20.54568l23.11691,0l0,23.14448l-23.11691,0l0,-23.14448z"/>
+  </g>
+ </g>
+</svg>

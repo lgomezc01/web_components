@@ -1,0 +1,241 @@
+slot {
+	display: flex;
+}
+
+/*Default value para width y height auto; */
+div.chartContainer {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: stretch;
+	align-self: stretch;
+	flex: 1 1 auto;
+	box-sizing: border-box;
+	font-size: 1rem;
+	/*background-color: grey;*/
+}
+
+div.chartContainer div.chartTop {
+	flex: 0 1 auto;
+	align-self: auto;
+	order: 1;
+	/* 	min-width: auto; */
+	min-height: 1.25em;
+	height: 1.25em;
+	margin-bottom: 0.3125em;
+	background-color: yellow;
+}
+
+div.chartContainer div.chartMiddle {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: stretch;
+	order: 2;
+	flex: 1 1 auto;
+	align-self: auto;
+	/* 	height: inherit; */
+	/* background-color: red; */
+}
+
+div.chartTop div.realData {
+	order: 3;
+	flex: 0 1 auto;
+	align-self: flex-start;
+	min-width: 1.25em;
+	min-height: 1.25em;
+	height: 1.25em;
+	width: 1.25em;
+	/*background-color: green;*/
+}
+
+.timeSlider {
+	order: 1;
+}
+
+.grouperSlider {
+	order: 3;
+}
+
+.timeSlider, .grouperSlider {
+	flex: 0 1 auto;
+	align-self: auto;
+	min-width: 0.4em;
+	display: flex;
+	width: 0.4em;	
+	height:100%;
+	/*background-color: green;/*
+}
+
+div.chartMiddle div.chartContent {
+	position: relative;
+	display: flex;
+	order: 2;
+	flex: 1 1 auto;
+	align-self: auto;
+	margin-left: 0.3125em;
+	margin-right: 0.3125em;
+	/* Estos dos lienas son necesarias para que el chart calcule el height */
+/* 	width: 100%; */
+	/*background-color: blue;*/
+}
+
+
+
+div.notifications {
+	position: absolute;
+	height: 3.125em;
+	width: 100%;
+	z-index: 8;
+	overflow: auto;
+	display: none;
+	/*display: inline-table;*/
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%,
+		rgba(220, 226, 192, 1) 100%);
+	/* 	background: linear-gradient(#EFEFEF, #BBB) repeat scroll 0% 0% / 100% 200% transparent; */
+	/*box-shadow: 0 0 9px rgba(0, 0, 0, 0.15);
+	opacity: 0.6;*/
+	border-radius: 0.625em;
+	/*bottom:0;
+	right:0;*/
+	font-size: 1rem;
+}
+
+div.notifications>ul {
+	/*text-indent: 3.125em;*/
+	/* 	color: #0E5989; */
+	color: rgba(89, 105, 15, 1);
+	font-size: 1.125em;
+	font-family: "Arial, Helvetica, sans-serif";
+	font-weight: bold;
+	list-style-type: none;
+	text-align: center;
+	margin-top: 0.9375em;
+	padding: 0;
+}
+
+
+.left-nav, .right-nav {
+	position: absolute;
+    align-self: center;	
+    border: 0;
+	/* 	position:relative; */
+	width: 3.4375em;
+	height: 3.4375em;
+	z-index: 9;
+	opacity: 0;
+	/*transition: opacity .5s;*/
+	cursor: pointer;
+	display: block;
+	background: url("img/navs.png") no-repeat;
+	/*background: url(navs.png) no-repeat;*/
+	overflow: hidden;
+}
+
+.left-nav {
+	background-position: -7.6875em -2.0625em;
+}
+
+.right-nav {
+	background-position: -11.4375em -2.0625em;
+}
+
+.left-nav:hover {
+	background-position: -0.1875em -2.0625em;
+}
+
+.right-nav:hover {
+	background-position: -3.9375em -2.0625em;
+}
+
+.left-nav:active {
+    background-position: -15.347em -2.0625em;
+}
+
+.right-nav:active {
+	background-position: -18.9375em -2.0625em;
+}
+
+div.chartContent .left-nav {
+	/* 	margin-left: 0.625em; */
+	left: 0.625em;
+}
+
+div.chartContent .right-nav {
+	right: 0.625em;
+}
+
+div.chartContent:hover .left-nav, div.chartContent:hover .right-nav {
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+nav.contextMenu {
+	position: absolute;
+}
+
+/*****************************************************************************/
+/* CONTROLS            													     */
+/*****************************************************************************/
+div.controls {
+	/* 	opacity: 0; */
+	z-index: 7;
+	position: absolute;
+	margin: 0.3125em;
+}
+
+div.controls ul {
+	display: flex;
+	flex-flow: row;
+	list-style: none;
+	margin: 0;
+	/* 	opacity: 0.6; */
+}
+
+div.controls li {
+	margin: 0;
+	list-style: none;
+}
+
+div.controls a {
+	display: block;
+	outline: none;
+	height: 1.5em;
+	width: 1.5em;
+}
+
+div.controls a.disabled {
+	cursor: default;
+}
+
+div.controls a.disabled span {
+	cursor: default;
+}
+
+div.controls a span {
+	/* hide the text for these graphic buttons */
+	display: none;
+	cursor: pointer;
+}
+
+/*****************************************************************************/
+/* FIN CONTROLS            													 */
+/*****************************************************************************/
+
+/*****************************************************************************/
+/* RESPONSIVE       	    												 */
+/*****************************************************************************/
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+	div.chartContainer {
+		font-size: 0.875rem;
+	}	
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+	div.chartContainer {
+		font-size: 0.75rem;
+	}	
+}

@@ -1,0 +1,16 @@
+﻿<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="1" x2="1" y1="0" x1="0" id="svg_8" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0"/>
+   <stop stop-color="#b3d1dd" offset="1" stop-opacity="0.99219"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect width="64" height="64" id="svg_2" fill="url(#svg_8)" stroke-width="0"/>
+  <rect x="7.06967" y="22.89426" width="20" height="40.00342" stroke="#FFFFFF" fill="rgba(175,198,224,1)" id="svg_3"/>
+  <rect x="36.4859" y="42.1719" width="20" height="20.47516" stroke="#FFFFFF" fill="rgba(175,198,224,1)" id="svg_5"/>
+  <text font-weight="bold" transform="matrix(0.5868274780701693,0,0,0.4105636835821556,-15.059483276826596,-79.08809245672151) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="238.88793" x="55.44573" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#FFFFFF" fill="#000000">120</text>
+  <text font-weight="bold" transform="matrix(0.5868274780701693,0,0,0.4105636835821556,-15.059483276826596,-79.08809245672151) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="285.88667" x="105.15855" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#FFFFFF" fill="#000000" id="svg_10">60</text>
+ </g>
+</svg>

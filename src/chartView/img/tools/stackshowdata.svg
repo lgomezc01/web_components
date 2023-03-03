@@ -1,0 +1,18 @@
+﻿<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient spreadMethod="pad" id="svg_8" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop stop-opacity="0.99219" offset="1" stop-color="#b3d1dd"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="0" fill="url(#svg_8)" id="svg_2" height="64" width="64"/>
+  <rect id="svg_3" fill="rgba(124,181,236,1)" stroke="#FFFFFF" height="16.00342" width="20" y="46.64426" x="7.06967"/>
+  <rect id="svg_5" fill="rgba(124,181,236,1)" stroke="#FFFFFF" height="12.47516" width="20" y="50.1719" x="36.4859"/>
+  <rect id="svg_7" fill="rgba(15,72,127,1)" stroke="#FFFFFF" height="23.00342" width="20" y="20.89426" x="7.06967"/>
+  <rect id="svg_9" fill="rgba(15,72,127,1)" stroke="#FFFFFF" height="16.47516" width="20" y="30.9219" x="36.4859"/>
+  <text font-weight="bold" transform="matrix(0.586827, 0, 0, 0.410564, -15.0595, -79.0881)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="235.23442" x="54.59369" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#FFFFFF" fill="#000000">120</text>
+  <text font-weight="bold" transform="matrix(0.586827, 0, 0, 0.410564, -15.0595, -79.0881)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="256.04964" x="104.73253" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#FFFFFF" fill="#000000" id="svg_10">70</text>
+ </g>
+</svg>
